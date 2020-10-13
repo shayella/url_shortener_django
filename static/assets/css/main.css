@@ -122,7 +122,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #555;
-		font-weight: 400;
+		font-weight: 700;
 	}
 
 	table strong a{
@@ -2990,6 +2990,19 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#one{
+		padding-top: 3.8em !important;
+	}
+
+	#logo a{
+		border-bottom: none;
+	}
+	#logo a strong{
+		color: #fff;
+		margin-left: 0.1em;
+		font-size: 3.4em;
+	}
+
 		#header a {
 			font-size: 15pt;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
@@ -3103,7 +3116,7 @@ input, select, textarea {
 			border-color: #ffffff;
 		}
 
-		#header .icon.major {
+		#header .icon.major, #logo .icon.major {
 			color: #ffffff;
 		}
 
